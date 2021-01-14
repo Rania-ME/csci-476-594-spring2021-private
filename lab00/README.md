@@ -11,6 +11,6 @@ Proof of completing the questionare: \
 Proof of VM coffectly configuring and running: \
 ![Questionaire](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/lab00/security_vm.JPG)
 
-1) I learned how to google more efficiently 
-2)Github can be unnecessarily complicated
-3)Brief lesson on patience 
+1) While working on the formatting of this homework I learned two new ways to add new line to in github \
+2) In the past I never had to add screenshot to my Github, learning how to do that was new \
+3) I also have never edited file on github so this was new learning experiece too
