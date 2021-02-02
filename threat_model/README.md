@@ -8,4 +8,4 @@ The weaknesses of the threat model are as follows:
 2) In the diagram it wasn't considered if an attacker downloads viruses in it or not. 
 What can be improved in the future: 
 1) More scenarios where the laptop is password protected should be explored. 
-2) There could be more sub-branches of when the laptop gets stolen and the risks associated with that scenario. 
+2) There could be more sub-branches of when the laptop gets stolen and the risks associated with that scenario
