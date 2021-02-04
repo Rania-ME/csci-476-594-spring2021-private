@@ -1,0 +1,6 @@
+- You still haven't updated your GitHub profile to include all of the info we instructed (e.g., a photo, requested contact information). Do this ASAP!
+- Missing required elements. Please review submission instructions carefully (missing e.g., 'description', 'strengths', 'weaknesses', and/or 'improvements')
+- Please fix the header for your submission. See https://www.traviswpeters.com/cs476-2021-spring/labs#example-structure-of-a-lab-report-readmemd.
+- Your submission has formatting issues. Please make sure you clearly label each task/response, and use [Markdown](https://www.markdownguide.org) features appropriately.
+- Please check how your final `README.md` renders on GitHub - some of the formatting is off.
+- A great next step is to enumerate the countermeasures/defenses that you know of to defend again (or at least mitigate) the potential damage from the threats you identified.
