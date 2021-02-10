@@ -7,12 +7,12 @@ Task 3: the third argument of execve passes the current environment variables
 to the new program.
 Task 4: As expected, it prints the environment variables of the current environment.
 
-https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/CSec_Lab_01_T4.JPG 
+![CSec_Lab_o1_t4](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/CSec_Lab_01_T4.JPG) 
 
 Task 5: Unsurprisingly, the variables that I set were still changed within the
 child process
 
-https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/CSec_Lab_01_T51.JPG
+![CSec_Lab_01_t51](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/CSec_Lab_01_T51.JPG)
 
 Task 6: It ran my code with root privileges. This is dangerous because people can
 do things with higher privileges.
