@@ -37,6 +37,9 @@ child process
 
 Task 6: It ran my code with root privileges. This is dangerous because people can
 do things with higher privileges.
+
+
+
 Task 7: It doesn't print anything. It just sleeps for a bit. When a set UID program takes 
 the lead/runs it provides the user with priviledges depending on the program's owner. So, if the owner
 is root anyone running the program gains the roots priviledges. However, because of countermeasurements 
