@@ -1,18 +1,39 @@
 Task 1: Learning about environment details. 
+
+
 Task 2: The program is its own process and makes a child process.
 Which environment variables get printed depends on what is commented out.
 The only difference in environment variables between parent and child
 were GNOME_TERMILAN_SERVICE and GNOME_TERMINAL_SCREEN
+
+
+
 Task 3: the third argument of execve passes the current environment variables
 to the new program.
+
+
+
 Task 4: As expected, it prints the environment variables of the current environment.
 
+
+
+
 ![CSec_Lab_o1_t4](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/CSec_Lab_01_T4.JPG) 
+
+
 
 Task 5: Unsurprisingly, the variables that I set were still changed within the
 child process
 
+
+
+
 ![CSec_Lab_01_t51](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/CSec_Lab_01_T51.JPG)
+
+
+
+
+
 
 Task 6: It ran my code with root privileges. This is dangerous because people can
 do things with higher privileges.
