@@ -55,6 +55,6 @@ done by set UID programs is ignored unless it is done by the real user ID.
  hence Bob can remove files. 
  
  Task 9: When running it as a normal user it sleeps for a second. The file /etc/zzz has been modified. It gives Malicious Data when
- executable file is run after modifying /etc/zzz files. 
+ executable file is run after modifying /etc/zzz files 
 
 
