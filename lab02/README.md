@@ -11,13 +11,13 @@ Task1: "/bin/bash_shellshock" echo $foo didn't print foo as environment but "dec
         the -H, -A and -e can be used to create arbitary variables. 
         
         
-        ![Comp seclab2 2.2.1v](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.1v.JPG)
+   ![Comp seclab2 2.2.1v](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.1v.JPG)
         
-       ![Comp seclab2 2.2.2A](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.2A.JPG)
+   ![Comp seclab2 2.2.2A](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.2A.JPG)
         
-       ![Comp seclab2 2.2.3e](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.3e.JPG)
+   ![Comp seclab2 2.2.3e](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.3e.JPG)
         
-        ![Comp seclab2 2.2.4H](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.4H.JPG)
+   ![Comp seclab2 2.2.4H](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%202.2.4H.JPG)
         
         
         
@@ -28,7 +28,7 @@ Task1: "/bin/bash_shellshock" echo $foo didn't print foo as environment but "dec
          It is only a writable file. 
          
          
-         ![Comp seclab2 3.1](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%203.1.JPG)
+   ![Comp seclab2 3.1](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Comp%20seclab2%203.1.JPG)
          
          
  Task4: "nc -lv 9090" on the attacker machine
