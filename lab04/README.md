@@ -113,4 +113,29 @@ Here we use the vulnerability to change someone elses password. We change the Bo
 
 
 
+
+
+
 ![Task 3.3again](https://github.com/Rania-ME/csci-476-594-spring2021-private/blob/main/Task%203.3again.JPG)
+
+
+
+
+Task 4:
+$result = $conn->query("SELECT id, name, eid, salary, ssn
+                        FROM credential
+                        WHERE name= '$input_uname' and password= '$hashed_pwd'");
+if ($result->num_rows > 0) {"
+
+Prepare the query
+$stmt = $conn->prepare("SELECT name, local, gender
+                        FROM USER_TABLE
+                        WHERE id = ? and password = ? ");
+                        
+   
+   $stmt->bind_param("is", $id, $pwd);
+$stmt->execute();
+$stmt->bind_result($bind_name, $bind_local, $bind_gender);
+$stmt->fetch(); "
+
+
