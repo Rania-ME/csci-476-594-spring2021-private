@@ -5,7 +5,7 @@ presence of third parties. It deals with developing and analyzing protocols whic
 information being shared between two entities thereby following the various aspects of information security. Cryptography can solve
 a lot of security issues by not letting a lot of vital getting stolen or manipulated since cryptography enables the sender and the 
 receivers beig the only one who can see the message. One of the issues is that anyone with the key can decipher the information.
-The big idea behind it is, the sender would use a set of rules to encode the messagewhich makes it safe and secure and the reciever 
+The big idea behind it is, the sender would use a set of rules to encode the message, which makes it safe and secure and the reciever 
 would need a key to decode it. 
 
 
