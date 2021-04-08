@@ -12,7 +12,10 @@ Task 1:
 
 Task 2:
 
-First we need to make sure that the picture is working. Then we start the encryption. 
+First we need to make sure that the picture is working. Then we start the encryption. We can start encrypting the picture and we 
+have to set the header of the file correctly so that the encrypted file will be recognized as a legitimate bmp file. We can figure
+out some of the information about the picture by viewing it. The whole picuture is encrypted but it is possible to know what the 
+picture was before encryption. 
 
 
 
