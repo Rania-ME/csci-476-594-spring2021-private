@@ -20,10 +20,10 @@ Task 1.5:
 Root cause of this vulnurability is when a web application uses untrusted input without performing proper validation first. 
 
 Task 1.6:
- Stored XSS means that some persistant data (typically stored in a databse) are not sanitized in a page, which implies that 
- everyone can be affected by the vulnerability. For example, imagine a forum where users' answers posted are not escaped. If someone
- posts a topic with some HTML on it, everyone that goes to the topic page will be affected! The risks can generally be important, since 
- it affects all users and can widespread rapidly (A typical example is Myspace XSS worm which impacted one million users in 20 hours).
+Stored XSS means that some persistant data (typically stored in a databse) are not sanitized in a page, which implies that 
+everyone can be affected by the vulnerability. For example, imagine a forum where users' answers posted are not escaped. If someone
+posts a topic with some HTML on it, everyone that goes to the topic page will be affected! The risks can generally be important, since 
+it affects all users and can widespread rapidly (A typical example is Myspace XSS worm which impacted one million users in 20 hours).
 
 Reflected XSS, on the contrary, means that non-persistent data (generally data provided by the client through form submission) are not escaped.
 For instance, imagine a search engine where in the results list page, your search keywords are redisplayed (and not sanitized). You could then put html
@@ -67,6 +67,11 @@ compliance becuase if employees are trained then they would know what the risks 
 process, a supervisor may keep track of things. By conduting risk and vulnerability assesment, we can be sure that things are in order and that 
 risks are being avoided. 
 
+Task 3.2:
+We saw in class that using "suystem" the user is able to type in whatever command, then a semicolon and then add maliscious commands. The program
+being SET-UID any instructions that are injected after the semicolon will be executed. This means that this person can do whatever they want 
+because they have rights that they aren't supposed to which may be problematic. 
+
 
 Task 4.1:
 To defeat SQL injection attacks, a web application has implemented a filtering scheme at the client side: basically, on the page where users type their data,
@@ -87,14 +92,23 @@ $stmt->bind_param("is", $id, $pwd); $stmt->execute(); $stmt->bind_result($bind_n
 
 Links used:
 https://darkcubed.com/compliance
+
 https://blog.finjan.com/cybersecurity-compliance-frameworks/
+
 https://stackoverflow.com/questions/27461936/system-vs-execve/27461938
+
 https://www.handsonsecurity.net/files/problems/Shellshock_ex.pdf
+
 https://www.howtogeek.com/278056/what-is-aslr-and-how-does-it-keep-your-computer-secure/
+
 https://resources.infosecinstitute.com/topic/cross-site-scripting-xss-vulnerabilities/
+
 https://portswigger.net/web-security/cross-site-scripting
+
 https://stackoverflow.com/questions/45952778/what-is-the-difference-between-stored-xss-and-reflected-xss
+
 https://crypto.stackexchange.com/questions/31234/why-is-hybrid-encryption-more-effective-than-other-encryption-scheme#31235
+
 Used lecture slides for task 1.7
 
 
