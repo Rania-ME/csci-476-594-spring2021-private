@@ -72,6 +72,10 @@ We saw in class that using "suystem" the user is able to type in whatever comman
 being SET-UID any instructions that are injected after the semicolon will be executed. This means that this person can do whatever they want 
 because they have rights that they aren't supposed to which may be problematic. 
 
+Task 3.3:
+What more does is that, it looks for input from Standard Input Source. From this a program will read its input data if there aren't any given
+file names. Read is used by software to request data transfers. 
+
 
 Task 4.1:
 To defeat SQL injection attacks, a web application has implemented a filtering scheme at the client side: basically, on the page where users type their data,
